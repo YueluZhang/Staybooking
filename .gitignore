@@ -1,0 +1,63 @@
+# ---- Java / Gradle ----
+*.class
+*.jar
+*.war
+*.log
+build/
+.gradle/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- Spring Boot ----
+target/
+*.iml
+*.ipr
+*.iws
+
+# ---- Node / React ----
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# ---- IDE ----
+.idea/
+.vscode/
+.project
+.settings/
+*.swp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+*.pid
+*.tar
+docker-compose.override.yml
+docker-compose.dev.yml
+**/mysql-data/
+**/pgdata/
+**/uploads/
+
+# ---- Configuration / Secrets ----
+application.yml
+application.properties
+application-*.yml
+*.key
+*.pem
+*.crt
+
+# ---- Logs ----
+logs/
+*.log
+nohup.out
+
+# ---- Misc ----
+*.tmp
+*.bak
+*.orig
+
